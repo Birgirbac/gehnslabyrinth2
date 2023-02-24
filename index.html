@@ -43,12 +43,12 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/gehn.loader.js"></script>
+		<script src="Build/gehn2.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/gehn.data.gz",
-				frameworkUrl: "Build/gehn.framework.js.gz",
-				codeUrl: "Build/gehn.wasm.gz",
+				dataUrl: "Build/gehn2.data",
+				frameworkUrl: "Build/gehn2.framework.js",
+				codeUrl: "Build/gehn2.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "DefaultCompany",
 				productName: "GehnsLabyrinth",
